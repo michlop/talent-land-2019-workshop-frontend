@@ -4,7 +4,6 @@ node_js:
   
 before script: 
   - npm install
-  
-  script:
-    - echo "Antes de la construcción"
-    - npm build
+script:
+  - echo "Antes de la construcción"
+  - npm build
